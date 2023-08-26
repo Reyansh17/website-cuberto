@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Mono'
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+background-color: #FFFFFF;
+width: 100%;
+
+
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+ #nav{
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+ }
+ #nav img{
+ width: 100px;
+
+ }
+
+ #nav #right{
+    display: flex;
+    align-items: center;
+    gap:40px;
+
+ }
+ #nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 1.5vw;
+    letter-spacing: -1px;
+
+ }
+ #nav i{
+    margin-top: 3px;
+    font-size: 20px;
+ }
+ #home #homemain{
+    padding: 15vw 15vw;
+ 
+    
+ }
+#homemain h1{
+    font-weight: 700;
+    font-size:2vw ;
+    letter-spacing: -1px;
+}
+#homemain .headings h1:hover{
+    color: black;
+}
+.headings{
+    display: flex;
+    gap: 40px;
+   
+
+}
+#homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke:1px rgb(135, 135, 135);
+    font-size: 5.5vw;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height:0.9;}
+
+    #homelast{
+   padding: 5vw 15vw;
+    }
+    
+
+#homelast p{
+    width: 35%;
+        font-weight: 200;
+        font-size: 1.6vw;
+        letter-spacing: -0.03vw;
+      
+    }
+    #homelast p::selection{
+        color: aliceblue;
+        background-color: black; 
+    }
+    #featured{
+      padding: 10vw 15vw ;
+    }
+    .fheading h1{
+        font-weight: 300;
+        line-height: 0.8;
+        font-size: 3vw;
+        letter-spacing:-0.3vw;
+
+    }
+    .fheading>h1:nth-child(2){
+      color: transparent;
+      -webkit-text-stroke: 0.6px black;
+    }
+    #fimages{
+        display: flex;
+        justify-content: space-between;
+     width: 100%;
+    height: 100vh;
+   padding: 0vw;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+   
+
+    }
+    #fleft{
+        overflow: hidden;
+    width: 45%;
+    /* border: 1px solid red; */
+    height: inherit;
+
+    }
+    #fleft .felem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+        height: inherit;
+        letter-spacing: -0.1vw;
+     
+        /* background-color: aquamarine; */
+    }
+    .felem h1{
+        text-transform: capitalize;
+        font-weight: 380;
+        font-size:2.5vw;
+    }
+    .felem h2{
+        font-size: 1.2vw;
+        /* color: transparent;
+        -webkit-text-stroke: 0.5px black; */
+        opacity: 0.5;
+    }
+ 
+    .felem h3{
+        font-size: 1.5vw;
+    }
+    #fright{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        width: 45%;
+        /* border: 1px solid green; */
+      height: inherit;
+
+    }
+    #fright .images{
+        width:90%;
+        height: 90%;
+        background-color: blue;
+
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+
+    }
+    .button button{
+     
+       padding: 1.5vw 2.5vw;
+       border-radius: 100px;
+       border: 2px solid black;
+       background-color: rgb(255, 255, 255);
+       font-size: 1vw;
+       font-weight: 400;
+       letter-spacing: -1px;
+       text-transform: capitalize;
+    }
+
+#dev{
+    width: 100%;
+    padding: 10vw 15vw ;
+
+}
+#dev h1{
+    width: 60%;
+   font-size: 5vw;
+   letter-spacing: -0.3vw;
+   font-weight: 350;
+   line-height: 3.5vw;
+}
+ #dev p{
+    width: 65%;
+    margin-top: 10vh;
+    font-weight: 400;
+    font-size: 1.2vw;
+    opacity: 0.8;
+ }
+
+ #slides{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 5vw;
+ }
+.slide{
+  
+   width: 30%;
+height: 200px;
+
+  
+
+}
+.slide .img{
+    width: 100%;
+    height: 250px;
+   
+    }
+   
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+   
+}
+.slide .tag{
+    width: fit-content;
+    margin: 20px 0px;
+    padding: 10px 22px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 50px;
+    opacity: 0.7;
+}
+.slide h3{
+    font-size: 2vw;
+    font-weight: 350;
+    text-transform: capitalize;
+    letter-spacing: -0.1vw;
+}
